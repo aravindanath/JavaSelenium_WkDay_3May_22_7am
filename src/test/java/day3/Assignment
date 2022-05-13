@@ -1,0 +1,15 @@
+
+Write a java fizz buzz program
+
+The rules:
+1-100
+
+print fizz if the number div by 3
+print buzz if the number div by 5
+
+print fizz buzz if the number div by 3 & 5
+
+Hint:
+
+1. Use loops
+2. condtions
