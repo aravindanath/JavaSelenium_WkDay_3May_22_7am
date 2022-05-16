@@ -7,7 +7,9 @@ public class Calculator {
         Calculator calculator = new Calculator();// Class Object
         calculator.addNumber(10,20);
         calculator.addNumber(345,345);
-        calculator.addNumber(12,21,23);
+       calculator.addNumber(12,21,23);
+        int x =   calculator.multiply(33,22);
+        System.out.println(x*302);
 
 
     }
@@ -34,6 +36,10 @@ public class Calculator {
         System.out.println("Addition "+ sum);
     }
 
+    public int multiply(int x, int y){
+        int mul = x * y;
+        return mul;
+    }
 
 
 }
