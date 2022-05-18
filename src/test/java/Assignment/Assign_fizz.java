@@ -1,3 +1,5 @@
+package Assignment;
+
 public class Assign_fizz {
     public static void main (String[] args)
     {
