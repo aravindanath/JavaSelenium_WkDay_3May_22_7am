@@ -10,5 +10,6 @@ public class exampl1 {
         am.defaultMethod();
         am.publicMethod();
 
+
     }
 }
