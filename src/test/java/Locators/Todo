@@ -1,0 +1,53 @@
+id
+className
+name
+linktext
+pLinktext
+tag
+xpath
+css
+
+basic (relative //input[@name='q'] / abs  /html/body/div/div[3]/form/div/div/div/div/div[2]/input)
+text()
+contains
+startwith
+following
+preceding
+and
+or
+
+css
+id
+class
+startswith
+endswith
+contains
+
+alerts
+Action class
+dropdowns
+windohandling
+frames
+fileupload
+file download
+screenshots
+autosuggfestions
+calenders
+pagination
+webtables
+waits
+navigate / get
+builtin fucntions
+cloud integration
+extent repors
+framework
+jenkins
+
+interview problem solving
+
+Assignemtn:
+
+https://github.com/aravindanath/Automation-Assignment-Take-Home
+https://github.com/aravindanath/Take_home_Assignmnet
+https://github.com/aravindanath/Take_Home_Assignment
+
