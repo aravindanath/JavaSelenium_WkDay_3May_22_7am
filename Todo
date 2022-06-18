@@ -1,0 +1,51 @@
+id --done
+className -- doone
+name done
+linktext done
+pLinktext done
+tag done
+xpath done
+css done
+
+basic (relative //input[@name='q'] / abs  /html/body/div/div[3]/form/div/div/div/div/div[2]/input)
+text() done
+contains done
+startwith done
+following done
+preceding done
+and done
+or done
+CSS done
+
+
+
+alerts
+Action class  -- done
+dropdowns
+windohandling
+frames
+fileupload -- done
+file download -- done
+screenshots -- done
+scroll -- done
+autosuggfestions  -- done
+calenders -- done
+pagination
+webtables
+waits
+navigate / get -- done
+builtin fucntions -- done
+cloud integration
+extent repors
+framework
+jenkins
+s
+
+interview problem solving
+
+Assignemtn:
+
+https://github.com/aravindanath/Automation-Assignment-Take-Home
+https://github.com/aravindanath/Take_home_Assignmnet
+https://github.com/aravindanath/Take_Home_Assignment
+
