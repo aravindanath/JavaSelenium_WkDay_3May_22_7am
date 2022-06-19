@@ -3,6 +3,7 @@ package day7;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -93,5 +94,54 @@ public class Generic {
         JavascriptExecutor js  = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();",element);
 
+    }
+
+    /**
+     * @Author: Arvind
+     * Date: 19 June 2022
+     * @param driver
+     */
+    public static void acceptAlert(WebDriver driver){
+        Alert alert =  driver.switchTo().alert();
+        System.out.println(alert.getText());
+        alert.accept();
+    }
+
+    public static void acceptAlert(WebDriver driver,String text){
+        Alert alert =  driver.switchTo().alert();
+        System.out.println(alert.getText());
+        alert.sendKeys(text);
+        alert.accept();
+    }
+
+    public static void dismissAlert(WebDriver driver,String text){
+        Alert alert =  driver.switchTo().alert();
+        System.out.println(alert.getText());
+        alert.sendKeys(text);
+        alert.dismiss();
+    }
+
+
+    public static void dismissAlert(WebDriver driver){
+        Alert alert =  driver.switchTo().alert();
+        System.out.println(alert.getText());
+        alert.dismiss();
+    }
+
+
+    public static void selectByText(WebElement element, String text){
+        Select select = new Select(element);
+        select.selectByVisibleText(text);
+    }
+
+
+    public static void selectByValue(WebElement element, String text){
+        Select select = new Select(element);
+        select.selectByValue(text);
+    }
+
+    public static void selectByIndex(WebElement element, int index){
+        Select select = new Select(element);
+        select.selectByIndex(index);
     }
 }
