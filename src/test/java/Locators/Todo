@@ -1,30 +1,26 @@
-id
-className
-name
-linktext
-pLinktext
-tag
-xpath
-css
+id --done
+className -- doone
+name done
+linktext done
+pLinktext done
+tag done
+xpath done
+css done
 
 basic (relative //input[@name='q'] / abs  /html/body/div/div[3]/form/div/div/div/div/div[2]/input)
-text()
-contains
-startwith
-following
-preceding
-and
-or
+text() done
+contains done
+startwith done
+following done
+preceding done
+and done
+or done
+CSS done
 
-css
-id
-class
-startswith
-endswith
-contains
+
 
 alerts
-Action class
+Action class  -- done
 dropdowns
 windohandling
 frames
